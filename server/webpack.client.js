@@ -1,14 +1,15 @@
 const path = require('path');
-const { merge } = require('webpack-merge')
-const baseConfig = require('./webpack.base');
+const { merge } = require('webpack-merge');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const baseConfig = require('./webpack.base');
+
 
 const clientConfig = {
   devtool: 'source-map', // 服务器端不要 source-map
   entry: './src/client',
   output: {
-    filename: 'js/bundle.[hash:5].js',
+    filename: 'js/bundle.[chunkhash:5].js',
     path: path.resolve(__dirname, './public'),
     publicPath: '/'
   },
@@ -20,7 +21,7 @@ const clientConfig = {
       ],
     }),
     new MiniCssExtractPlugin({
-      filename: 'css/bundle.[hash:5].css'
+      filename: 'css/bundle.[chunkhash:5].css'
     })
   ],
   module: {
@@ -28,9 +29,7 @@ const clientConfig = {
       {
         test: /\.css$/,
         use: [
-          {
-            loader: MiniCssExtractPlugin.loader
-          },
+          MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
             options: {

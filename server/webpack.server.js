@@ -15,13 +15,13 @@ const serverConfig = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.css?$/,
         use: [
-          { loader: 'isomorphic-style-loader' },
+          'isomorphic-style-loader',
           {
             loader: 'css-loader',
             options: {
-              modules: true,
+              modules: true
             }
           }
         ]
