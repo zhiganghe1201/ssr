@@ -9,7 +9,8 @@ const clientConfig = {
   entry: './src/client',
   output: {
     filename: 'js/bundle.[hash:5].js',
-    path: path.resolve(__dirname, './public')
+    path: path.resolve(__dirname, './public'),
+    publicPath: '/'
   },
   plugins: [
     new CleanWebpackPlugin({
@@ -34,12 +35,19 @@ const clientConfig = {
             loader: 'css-loader',
             options: {
               modules: true,
-              // modules: {
-              //   namedExport: true,
-              //   localIdentName: "foo__[name]__[local]",
-              // },
             }
           }]
+      },
+      {
+        test: /\.(png)|(jpg)|(jpeg)|(gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'img/[name].[hash:5].[ext]'
+            }
+          }
+        ]
       }
     ]
   }

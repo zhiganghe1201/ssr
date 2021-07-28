@@ -1,7 +1,13 @@
 import React from 'react';
-import Home from '@/pages/Home';
+import { BrowserRouter } from 'react-router-dom';
+// import Home from '@/pages/Home';
+import RouteApp from '@/routes/RouteApp'
 import '../assets/global.css'
 
 export default function App() {
-  return <Home />
+  return (
+    <BrowserRouter>
+      <RouteApp />
+    </BrowserRouter>
+  )
 }

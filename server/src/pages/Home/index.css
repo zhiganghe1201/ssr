@@ -1,8 +1,18 @@
-.buautybutton {
+.beautybutton {
   border: 1px solid #333;
   background-color: red;
 }
 
-.buautybutton:hover {
+.beautybutton:hover {
   background-color: aqua;
+}
+
+.bg {
+  background: url('../../assets/superMan.jpeg');
+  width: 188px;
+  height: 188px;
+}
+
+.color {
+  color: red;
 }
