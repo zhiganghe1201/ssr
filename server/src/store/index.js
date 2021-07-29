@@ -3,7 +3,7 @@ import reducers from './reducers';
 
 
 let store;
-// 区分是浏览还是服务器环境
+// 区分是浏览还是服务器环境  为了好调试
 if (global.document) {
   store = createStore(
     reducers,
