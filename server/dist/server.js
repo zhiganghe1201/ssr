@@ -148,7 +148,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"react-router-dom\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../routes/RouteApp */ \"./src/routes/RouteApp.jsx\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__({\n  location,\n  context\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.StaticRouter, {\n    location: location,\n    context: context\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__.default, null));\n}\n\n//# sourceURL=webpack://serve/./src/server/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"react-router-dom\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../routes/RouteApp */ \"./src/routes/RouteApp.jsx\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../store */ \"./src/store/index.js\");\n\n\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__({\n  location,\n  context\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__.Provider, {\n    store: _store__WEBPACK_IMPORTED_MODULE_4__.default\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.StaticRouter, {\n    location: location,\n    context: context\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__.default, null)));\n}\n\n//# sourceURL=webpack://serve/./src/server/App.jsx?");
 
 /***/ }),
 
@@ -204,6 +204,72 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var expr
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/server */ \"react-dom/server\");\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ \"./src/server/App.jsx\");\n/* harmony import */ var _getHtml__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getHtml */ \"./src/server/getHtml.js\");\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((req, res) => {\n  const context = {};\n  const compHtml = react_dom_server__WEBPACK_IMPORTED_MODULE_0___default().renderToString( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_App__WEBPACK_IMPORTED_MODULE_2__.default, {\n    location: req.path,\n    context: context\n  })); // renderToString 把 React 组件编译为 字符串\n  // console.log(compHtml); // 会执行两次 因为浏览器第一次访问一个页面的时候 回去请求 ./favicon.ico; 所以会请求两次。 因为是get('*') 要去配置 favicon.ico\n\n  const html = (0,_getHtml__WEBPACK_IMPORTED_MODULE_3__.default)(compHtml);\n  res.send(html);\n});\n\n//# sourceURL=webpack://serve/./src/server/render.js?");
+
+/***/ }),
+
+/***/ "./src/store/actions/counter.js":
+/*!**************************************!*\
+  !*** ./src/store/actions/counter.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"actionTypes\": () => (/* binding */ actionTypes),\n/* harmony export */   \"increase\": () => (/* binding */ increase),\n/* harmony export */   \"decrease\": () => (/* binding */ decrease)\n/* harmony export */ });\nconst actionTypes = {\n  increase: \"counter/incrase\",\n  decrease: \"counter/decrease\"\n};\nfunction increase() {\n  return {\n    type: actionTypes.increase\n  };\n}\nfunction decrease() {\n  return {\n    type: actionTypes.decrease\n  };\n}\n\n//# sourceURL=webpack://serve/./src/store/actions/counter.js?");
+
+/***/ }),
+
+/***/ "./src/store/actions/movies.js":
+/*!*************************************!*\
+  !*** ./src/store/actions/movies.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"actionTypes\": () => (/* binding */ actionTypes),\n/* harmony export */   \"setDatas\": () => (/* binding */ setDatas)\n/* harmony export */ });\nconst actionTypes = {\n  setDatas: \"movies/setDatas\"\n};\nfunction setDatas(datas) {\n  return {\n    type: actionTypes.setDatas,\n    payload: datas\n  };\n}\n\n//# sourceURL=webpack://serve/./src/store/actions/movies.js?");
+
+/***/ }),
+
+/***/ "./src/store/index.js":
+/*!****************************!*\
+  !*** ./src/store/index.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reducers */ \"./src/store/reducers/index.js\");\n\n\nlet store; // 区分是浏览还是服务器环境\n\nif (global.document) {\n  store = (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(_reducers__WEBPACK_IMPORTED_MODULE_1__.default, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());\n} else {\n  store = (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(_reducers__WEBPACK_IMPORTED_MODULE_1__.default);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (store);\n\n//# sourceURL=webpack://serve/./src/store/index.js?");
+
+/***/ }),
+
+/***/ "./src/store/reducers/counter.js":
+/*!***************************************!*\
+  !*** ./src/store/reducers/counter.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _actions_counter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../actions/counter */ \"./src/store/actions/counter.js\");\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(state = 10, {\n  type\n}) {\n  switch (type) {\n    case _actions_counter__WEBPACK_IMPORTED_MODULE_0__.actionTypes.increase:\n      return state + 1;\n\n    case _actions_counter__WEBPACK_IMPORTED_MODULE_0__.actionTypes.decrease:\n      return state - 1;\n\n    default:\n      return state;\n  }\n}\n\n//# sourceURL=webpack://serve/./src/store/reducers/counter.js?");
+
+/***/ }),
+
+/***/ "./src/store/reducers/index.js":
+/*!*************************************!*\
+  !*** ./src/store/reducers/index.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _counter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./counter */ \"./src/store/reducers/counter.js\");\n/* harmony import */ var _movies__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./movies */ \"./src/store/reducers/movies.js\");\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers)({\n  counter: _counter__WEBPACK_IMPORTED_MODULE_1__.default,\n  movies: _movies__WEBPACK_IMPORTED_MODULE_2__.default\n}));\n\n//# sourceURL=webpack://serve/./src/store/reducers/index.js?");
+
+/***/ }),
+
+/***/ "./src/store/reducers/movies.js":
+/*!**************************************!*\
+  !*** ./src/store/reducers/movies.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _actions_movies__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../actions/movies */ \"./src/store/actions/movies.js\");\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(state = [], {\n  type,\n  payload\n}) {\n  switch (type) {\n    case _actions_movies__WEBPACK_IMPORTED_MODULE_0__.actionTypes.setDatas:\n      return payload;\n\n    default:\n      return state;\n  }\n}\n\n//# sourceURL=webpack://serve/./src/store/reducers/movies.js?");
 
 /***/ }),
 
@@ -348,6 +414,17 @@ module.exports = require("react-dom/server");
 
 /***/ }),
 
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-redux");
+
+/***/ }),
+
 /***/ "react-router-config":
 /*!**************************************!*\
   !*** external "react-router-config" ***!
@@ -367,6 +444,17 @@ module.exports = require("react-router-config");
 
 "use strict";
 module.exports = require("react-router-dom");
+
+/***/ }),
+
+/***/ "redux":
+/*!************************!*\
+  !*** external "redux" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("redux");
 
 /***/ })
 
