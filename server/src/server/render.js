@@ -1,13 +1,26 @@
 
-import ReactDom from 'react-dom/server';
 import React from 'react';
+import ReactDom from 'react-dom/server';
 import App from './App';
 import getHtml from './getHtml';
+import StyleContext from 'isomorphic-style-loader/StyleContext'
+import loadData from './loadData';
+import makeStore from '../store';
 
-export default (req, res) => {
+export default async (req, res) => {
+  const css = new Set();
+  const insertCss = (...styles) => styles.forEach(style => css.add(style._getCss()))
+  const store = makeStore()
+  // 渲染之前 执行请求数据
   const context = {}
-  const compHtml = ReactDom.renderToString(<App location={req.path} context={context} />); // renderToString 把 React 组件编译为 字符串
-  // console.log(compHtml); // 会执行两次 因为浏览器第一次访问一个页面的时候 回去请求 ./favicon.ico; 所以会请求两次。 因为是get('*') 要去配置 favicon.ico
-  const html = getHtml(compHtml)
+
+  await loadData(req.path, store)
+
+  const compHtml = ReactDom.renderToString(
+    <StyleContext.Provider value={{ insertCss }}>
+      <App location={req.path} context={context} store={store} />
+    </StyleContext.Provider>
+  );
+  const html = getHtml(compHtml, css, req.path, store)
   res.send(html);
 }

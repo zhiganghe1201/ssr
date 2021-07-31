@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ index)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/components/Header/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"react-router-dom\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconsole.log((_index_css__WEBPACK_IMPORTED_MODULE_1___default()), '----');\nfunction index() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().header)\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/\"\n  }, \"\\u9996\\u9875\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/movies\"\n  }, \"\\u7535\\u5F71\\u5217\\u8868\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/admin\"\n  }, \"\\u540E\\u53F0\\u7BA1\\u7406\"));\n}\n\n//# sourceURL=webpack://serve/./src/components/Header/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/components/Header/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"react-router-dom\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var isomorphic_style_loader_withStyles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-style-loader/withStyles */ \"isomorphic-style-loader/withStyles\");\n/* harmony import */ var isomorphic_style_loader_withStyles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_style_loader_withStyles__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nfunction Index(props, context) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().header)\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/\"\n  }, \"\\u9996\\u9875\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/movies\"\n  }, \"\\u7535\\u5F71\\u5217\\u8868\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {\n    to: \"/admin\"\n  }, \"\\u540E\\u53F0\\u7BA1\\u7406\"));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isomorphic_style_loader_withStyles__WEBPACK_IMPORTED_MODULE_3___default()((_index_css__WEBPACK_IMPORTED_MODULE_1___default()))(Index));\n\n//# sourceURL=webpack://serve/./src/components/Header/index.jsx?");
 
 /***/ }),
 
@@ -93,7 +93,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/pages/Home/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_superMan_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/superMan.jpeg */ \"./src/assets/superMan.jpeg\");\n\n\n\nconsole.log((_index_css__WEBPACK_IMPORTED_MODULE_1___default()), 'styles');\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  const [number, setNumber] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().color)\n  }, \"Hello world ssr day 1-1 \", number), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _assets_superMan_jpeg__WEBPACK_IMPORTED_MODULE_2__.default,\n    alt: \"\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().bg)\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", {\n    style: {\n      background: 'red'\n    }\n  }, \"\\u884C\\u95F4\\u6837\\u5F0F \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"button\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().beautybutton),\n    onClick: () => setNumber(number + 1)\n  }, \"click\"));\n}\n\n//# sourceURL=webpack://serve/./src/pages/Home/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/pages/Home/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_superMan_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/superMan.jpeg */ \"./src/assets/superMan.jpeg\");\n\n\n\nconsole.log(_index_css__WEBPACK_IMPORTED_MODULE_1___default()._getCss(), 'styles');\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n  const [number, setNumber] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().color)\n  }, \"Hello world ssr day 1-1 \", number), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _assets_superMan_jpeg__WEBPACK_IMPORTED_MODULE_2__.default,\n    alt: \"\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().bg)\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", {\n    style: {\n      background: 'red'\n    }\n  }, \"\\u884C\\u95F4\\u6837\\u5F0F \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"button\", {\n    className: (_index_css__WEBPACK_IMPORTED_MODULE_1___default().beautybutton),\n    onClick: () => setNumber(number + 1)\n  }, \"click\"));\n}\n\n//# sourceURL=webpack://serve/./src/pages/Home/index.jsx?");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ index)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction index() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", null, \"\\u7535\\u5F71\\u5217\\u8868\"));\n}\n\n//# sourceURL=webpack://serve/./src/pages/Movies/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _store_actions_movies__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../store/actions/movies */ \"./src/store/actions/movies.js\");\n\n\n\n\nfunction Movie({\n  movies = [],\n  loadMovies\n}) {\n  // 如果服务器处理了数据，则什么也不做\n  // 如果服务器没有处理数据，则需要加载数据\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    // 该副作用 hook 只在客户端渲染时执行\n    if (window.requestPath === '/movies') {\n      console.log('不需要加载, 服务端已经请求了，因为单页面应用只会请求一次html');\n    } else {\n      loadMovies && loadMovies();\n      console.log('加载数据了');\n    }\n  }, []);\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", null, \"\\u7535\\u5F71\\u5217\\u8868\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"ul\", null, movies.map(m => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"li\", {\n    key: m._id\n  }, m.name))));\n} // 在组件服务端渲染之前执行的函数\n\n\nMovie.loadData = async function (store) {\n  await store.dispatch((0,_store_actions_movies__WEBPACK_IMPORTED_MODULE_2__.fetchMovies)());\n};\n\nfunction mapStateToProps(state) {\n  return {\n    movies: state.movies\n  };\n}\n\nfunction mapDispatchToProps(dispatch) {\n  return {\n    loadMovies() {\n      dispatch((0,_store_actions_movies__WEBPACK_IMPORTED_MODULE_2__.fetchMovies)());\n    }\n\n  };\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(Movie));\n\n//# sourceURL=webpack://serve/./src/pages/Movies/index.jsx?");
 
 /***/ }),
 
@@ -148,7 +148,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"react-router-dom\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../routes/RouteApp */ \"./src/routes/RouteApp.jsx\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../store */ \"./src/store/index.js\");\n\n\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__({\n  location,\n  context\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__.Provider, {\n    store: _store__WEBPACK_IMPORTED_MODULE_4__.default\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.StaticRouter, {\n    location: location,\n    context: context\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__.default, null)));\n}\n\n//# sourceURL=webpack://serve/./src/server/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"react-router-dom\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../routes/RouteApp */ \"./src/routes/RouteApp.jsx\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__({\n  location,\n  context,\n  store\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__.Provider, {\n    store: store\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.StaticRouter, {\n    location: location,\n    context: context\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_routes_RouteApp__WEBPACK_IMPORTED_MODULE_2__.default, null)));\n}\n\n//# sourceURL=webpack://serve/./src/server/App.jsx?");
 
 /***/ }),
 
@@ -159,7 +159,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _getScript__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getScript */ \"./src/server/getScript.js\");\n/* harmony import */ var _getLinks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getLinks */ \"./src/server/getLinks.js\");\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (componentHTML => {\n  const html = `<!DOCTYPE html>\n  <html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>SSR</title>\n    ${(0,_getLinks__WEBPACK_IMPORTED_MODULE_1__.default)()}\n  </head>\n  <body>\n    <div id=\"root\">${componentHTML}</div>\n    ${(0,_getScript__WEBPACK_IMPORTED_MODULE_0__.default)()}\n  </body>\n  </html>`;\n  return html;\n});\n\n//# sourceURL=webpack://serve/./src/server/getHtml.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _getScript__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getScript */ \"./src/server/getScript.js\");\n/* harmony import */ var _getLinks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getLinks */ \"./src/server/getLinks.js\");\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((componentHTML, css, path, store) => {\n  const html = `<!DOCTYPE html>\n  <html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>SSR</title>\n    <style>${[...css].join('')}</style>\n\n  </head>\n  <body>\n    <div id=\"root\">${componentHTML}</div>\n    <script>\n      window.pageDatas = ${JSON.stringify(store.getState())};\n      window.requestPath = \"${path}\"\n    </script>\n    ${(0,_getScript__WEBPACK_IMPORTED_MODULE_0__.default)()}\n  </body>\n  </html>`;\n  return html;\n});\n\n//# sourceURL=webpack://serve/./src/server/getHtml.js?");
 
 /***/ }),
 
@@ -192,7 +192,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _render__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./render */ \"./src/server/render.js\");\n\n\nconst port = 8080;\nconst app = express__WEBPACK_IMPORTED_MODULE_0___default()();\napp.use(express__WEBPACK_IMPORTED_MODULE_0___default().static('./public'));\napp.get('*', _render__WEBPACK_IMPORTED_MODULE_1__.default);\napp.listen(port, () => {\n  console.log('8080 服务已启动');\n});\n\n//# sourceURL=webpack://serve/./src/server/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _render__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./render */ \"./src/server/render.js\");\n/* harmony import */ var http_proxy_middleware__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! http-proxy-middleware */ \"http-proxy-middleware\");\n/* harmony import */ var http_proxy_middleware__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(http_proxy_middleware__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconst port = 8080; // 开启一个服务器（前端服务器） 主要用来渲染页面的 public里的\n\nconst app = express__WEBPACK_IMPORTED_MODULE_0___default()();\napp.use(express__WEBPACK_IMPORTED_MODULE_0___default().static('./public')); // 代理浏览器接口, 正常前端不可以请求到后端数据服务器， 需要 中间层代理\n\napp.use('/api', (0,http_proxy_middleware__WEBPACK_IMPORTED_MODULE_2__.createProxyMiddleware)({\n  target: 'http://yuanjin.tech:5005/',\n  changeOrigin: true\n}));\napp.get('*', _render__WEBPACK_IMPORTED_MODULE_1__.default);\napp.listen(port, () => {\n  console.log('8080 服务已启动');\n});\n\n//# sourceURL=webpack://serve/./src/server/index.js?");
+
+/***/ }),
+
+/***/ "./src/server/loadData.js":
+/*!********************************!*\
+  !*** ./src/server/loadData.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_router_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-config */ \"react-router-config\");\n/* harmony import */ var react_router_config__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_router_config__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _routes_routesConfig__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../routes/routesConfig */ \"./src/routes/routesConfig.js\");\n\n\n/**\n * 负责服务器渲染前的加载\n */\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(path, store) {\n  const matches = (0,react_router_config__WEBPACK_IMPORTED_MODULE_0__.matchRoutes)(_routes_routesConfig__WEBPACK_IMPORTED_MODULE_1__.default, path);\n  const promiseArr = [];\n\n  for (const match of matches) {\n    if (match.route.component.loadData) {\n      promiseArr.push(Promise.resolve(match.route.component.loadData(store)));\n    }\n  }\n\n  return Promise.all(promiseArr);\n}\n\n//# sourceURL=webpack://serve/./src/server/loadData.js?");
 
 /***/ }),
 
@@ -203,7 +214,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var expr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/server */ \"react-dom/server\");\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ \"./src/server/App.jsx\");\n/* harmony import */ var _getHtml__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getHtml */ \"./src/server/getHtml.js\");\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((req, res) => {\n  const context = {};\n  const compHtml = react_dom_server__WEBPACK_IMPORTED_MODULE_0___default().renderToString( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_App__WEBPACK_IMPORTED_MODULE_2__.default, {\n    location: req.path,\n    context: context\n  })); // renderToString 把 React 组件编译为 字符串\n  // console.log(compHtml); // 会执行两次 因为浏览器第一次访问一个页面的时候 回去请求 ./favicon.ico; 所以会请求两次。 因为是get('*') 要去配置 favicon.ico\n\n  const html = (0,_getHtml__WEBPACK_IMPORTED_MODULE_3__.default)(compHtml);\n  res.send(html);\n});\n\n//# sourceURL=webpack://serve/./src/server/render.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/server */ \"react-dom/server\");\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ \"./src/server/App.jsx\");\n/* harmony import */ var _getHtml__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./getHtml */ \"./src/server/getHtml.js\");\n/* harmony import */ var isomorphic_style_loader_StyleContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-style-loader/StyleContext */ \"isomorphic-style-loader/StyleContext\");\n/* harmony import */ var isomorphic_style_loader_StyleContext__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_style_loader_StyleContext__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _loadData__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loadData */ \"./src/server/loadData.js\");\n/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../store */ \"./src/store/index.js\");\n\n\n\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (async (req, res) => {\n  const css = new Set();\n\n  const insertCss = (...styles) => styles.forEach(style => css.add(style._getCss()));\n\n  const store = (0,_store__WEBPACK_IMPORTED_MODULE_6__.default)(); // 渲染之前 执行请求数据\n\n  const context = {};\n  await (0,_loadData__WEBPACK_IMPORTED_MODULE_5__.default)(req.path, store);\n  const compHtml = react_dom_server__WEBPACK_IMPORTED_MODULE_1___default().renderToString( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((isomorphic_style_loader_StyleContext__WEBPACK_IMPORTED_MODULE_4___default().Provider), {\n    value: {\n      insertCss\n    }\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_App__WEBPACK_IMPORTED_MODULE_2__.default, {\n    location: req.path,\n    context: context,\n    store: store\n  })));\n  const html = (0,_getHtml__WEBPACK_IMPORTED_MODULE_3__.default)(compHtml, css, req.path, store);\n  res.send(html);\n});\n\n//# sourceURL=webpack://serve/./src/server/render.js?");
+
+/***/ }),
+
+/***/ "./src/services/movieService.js":
+/*!**************************************!*\
+  !*** ./src/services/movieService.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getMovies\": () => (/* binding */ getMovies)\n/* harmony export */ });\n/* harmony import */ var _request__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./request */ \"./src/services/request.js\");\n\nasync function getMovies(page = 1, limit = 10) {\n  let resp = await _request__WEBPACK_IMPORTED_MODULE_0__.default.get('/api/movie', {\n    params: {\n      page,\n      limit\n    }\n  });\n  return resp.data;\n}\n\n//# sourceURL=webpack://serve/./src/services/movieService.js?");
+
+/***/ }),
+
+/***/ "./src/services/request.js":
+/*!*********************************!*\
+  !*** ./src/services/request.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);\n\nconst config = {};\n\nif (typeof window === 'undefined') {\n  // 服务器\n  config.baseURL = \"http://yuanjin.tech:5005/\";\n} else {// 浏览器\n}\n\nconst instance = axios__WEBPACK_IMPORTED_MODULE_0___default().create(config);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (instance);\n\n//# sourceURL=webpack://serve/./src/services/request.js?");
 
 /***/ }),
 
@@ -225,7 +258,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"actionTypes\": () => (/* binding */ actionTypes),\n/* harmony export */   \"setDatas\": () => (/* binding */ setDatas)\n/* harmony export */ });\nconst actionTypes = {\n  setDatas: \"movies/setDatas\"\n};\nfunction setDatas(datas) {\n  return {\n    type: actionTypes.setDatas,\n    payload: datas\n  };\n}\n\n//# sourceURL=webpack://serve/./src/store/actions/movies.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"actionTypes\": () => (/* binding */ actionTypes),\n/* harmony export */   \"setDatas\": () => (/* binding */ setDatas),\n/* harmony export */   \"fetchMovies\": () => (/* binding */ fetchMovies)\n/* harmony export */ });\n/* harmony import */ var _services_movieService__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../services/movieService */ \"./src/services/movieService.js\");\n\nconst actionTypes = {\n  setDatas: \"movies/setDatas\",\n  fetchMovies: \"movies/fetchMovies\"\n};\nfunction setDatas(datas) {\n  return {\n    type: actionTypes.setDatas,\n    payload: datas\n  };\n}\nfunction fetchMovies(page = 1, limit = 10) {\n  return async function (dispatch) {\n    const resp = await (0,_services_movieService__WEBPACK_IMPORTED_MODULE_0__.getMovies)(page, limit);\n    dispatch(setDatas(resp.data));\n  };\n}\n\n//# sourceURL=webpack://serve/./src/store/actions/movies.js?");
 
 /***/ }),
 
@@ -236,7 +269,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reducers */ \"./src/store/reducers/index.js\");\n\n\nlet store; // 区分是浏览还是服务器环境\n\nif (global.document) {\n  store = (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(_reducers__WEBPACK_IMPORTED_MODULE_1__.default, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());\n} else {\n  store = (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(_reducers__WEBPACK_IMPORTED_MODULE_1__.default);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (store);\n\n//# sourceURL=webpack://serve/./src/store/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reducers */ \"./src/store/reducers/index.js\");\n/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! redux-thunk */ \"redux-thunk\");\n/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(redux_thunk__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nfunction makeStore() {\n  let store; // 区分是浏览还是服务器环境  为了好调试\n\n  if (global.document) {\n    const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || redux__WEBPACK_IMPORTED_MODULE_0__.compose;\n    store = (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(_reducers__WEBPACK_IMPORTED_MODULE_1__.default, window.pageDatas, // 仓库的初始值 为服务器 脱水的值\n    composeEnhancers((0,redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware)((redux_thunk__WEBPACK_IMPORTED_MODULE_2___default()))) // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()\n    );\n  } else {\n    store = (0,redux__WEBPACK_IMPORTED_MODULE_0__.createStore)(_reducers__WEBPACK_IMPORTED_MODULE_1__.default, (0,redux__WEBPACK_IMPORTED_MODULE_0__.applyMiddleware)((redux_thunk__WEBPACK_IMPORTED_MODULE_2___default())));\n  }\n\n  return store;\n} // 解决服务端数据产库共享的问题， 每次请求页面都返回一个新的store\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (makeStore);\n\n//# sourceURL=webpack://serve/./src/store/index.js?");
 
 /***/ }),
 
@@ -359,6 +392,17 @@ eval("/*! Isomorphic Style Loader | MIT License | https://github.com/kriasoft/is
 
 /***/ }),
 
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("axios");
+
+/***/ }),
+
 /***/ "express":
 /*!**************************!*\
   !*** external "express" ***!
@@ -378,6 +422,39 @@ module.exports = require("express");
 
 "use strict";
 module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http-proxy-middleware":
+/*!****************************************!*\
+  !*** external "http-proxy-middleware" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http-proxy-middleware");
+
+/***/ }),
+
+/***/ "isomorphic-style-loader/StyleContext":
+/*!*******************************************************!*\
+  !*** external "isomorphic-style-loader/StyleContext" ***!
+  \*******************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("isomorphic-style-loader/StyleContext");
+
+/***/ }),
+
+/***/ "isomorphic-style-loader/withStyles":
+/*!*****************************************************!*\
+  !*** external "isomorphic-style-loader/withStyles" ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("isomorphic-style-loader/withStyles");
 
 /***/ }),
 
@@ -455,6 +532,17 @@ module.exports = require("react-router-dom");
 
 "use strict";
 module.exports = require("redux");
+
+/***/ }),
+
+/***/ "redux-thunk":
+/*!******************************!*\
+  !*** external "redux-thunk" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("redux-thunk");
 
 /***/ })
 

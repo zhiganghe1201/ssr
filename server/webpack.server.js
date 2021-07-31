@@ -11,7 +11,7 @@ const serverConfig = {
     path: path.resolve(__dirname, "./dist"),
     publicPath: '/'
   },
-  externals: [nodeExternals()], // 服务器端 打包时 排除掉`node_modules`目录
+  externals: [nodeExternals()], // 服务器端 打包时 排除掉`node_modules`目录, 因为服务端直接运行有node_modules
   module: {
     rules: [
       {
@@ -21,7 +21,8 @@ const serverConfig = {
           {
             loader: 'css-loader',
             options: {
-              modules: true
+              modules: true,
+              importLoaders: 1
             }
           }
         ]

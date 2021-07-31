@@ -20,20 +20,23 @@ const clientConfig = {
         '!favicon.ico', // 清楚文件但排除这个文件
       ],
     }),
-    new MiniCssExtractPlugin({
-      filename: 'css/bundle.[chunkhash:5].css'
-    })
+    // new MiniCssExtractPlugin({
+    //   filename: 'css/bundle.[chunkhash:5].css'
+    // })
   ],
   module: {
     rules: [
       {
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader,
+          // 'style-loader',
+          // MiniCssExtractPlugin.loader,
+          "isomorphic-style-loader",
           {
             loader: 'css-loader',
             options: {
               modules: true,
+              importLoaders: 1
             }
           }]
       },

@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./index.css";
 import { Link } from "react-router-dom";
+import withStyles from 'isomorphic-style-loader/withStyles'
 
-console.log(styles, '----');
-export default function index() {
+function Index(props, context) {
   return (
     <div className={styles.header}>
       <Link to="/">首页</Link>
@@ -12,3 +12,5 @@ export default function index() {
     </div>
   );
 }
+
+export default withStyles(styles)(Index)

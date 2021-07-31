@@ -326,6 +326,13 @@
     "@types/react" "*"
     hoist-non-react-statics "^3.3.0"
 
+"@types/http-proxy@^1.17.5":
+  version "1.17.7"
+  resolved "https://registry.nlark.com/@types/http-proxy/download/@types/http-proxy-1.17.7.tgz#30ea85cc2c868368352a37f0d0d3581e24834c6f"
+  integrity sha1-MOqFzCyGg2g1Kjfw0NNYHiSDTG8=
+  dependencies:
+    "@types/node" "*"
+
 "@types/json-schema@*", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.8":
   version "7.0.8"
   resolved "https://registry.nlark.com/@types/json-schema/download/@types/json-schema-7.0.8.tgz?cache=0&sync_timestamp=1625608069156&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
@@ -607,6 +614,13 @@ array-uniq@^1.0.1:
   resolved "https://registry.nlark.com/array-uniq/download/array-uniq-1.0.3.tgz?cache=0&sync_timestamp=1620042121153&other_urls=https%3A%2F%2Fregistry.nlark.com%2Farray-uniq%2Fdownload%2Farray-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6"
   integrity sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.21.1.tgz?cache=0&sync_timestamp=1608609188013&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+  dependencies:
+    follow-redirects "^1.10.0"
+
 babel-loader@^8.2.2:
   version "8.2.2"
   resolved "https://registry.nlark.com/babel-loader/download/babel-loader-8.2.2.tgz?cache=0&sync_timestamp=1618847131046&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-loader%2Fdownload%2Fbabel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
@@ -670,7 +684,7 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-braces@~3.0.2:
+braces@^3.0.1, braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.npm.taobao.org/braces/download/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
   integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
@@ -1161,6 +1175,11 @@ etag@~1.8.1:
   resolved "https://registry.nlark.com/etag/download/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+eventemitter3@^4.0.0:
+  version "4.0.7"
+  resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-4.0.7.tgz?cache=0&sync_timestamp=1598517819668&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feventemitter3%2Fdownload%2Feventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha1-Lem2j2Uo1WRO9cWVJqG0oHMGFp8=
+
 events@^3.2.0:
   version "3.3.0"
   resolved "https://registry.nlark.com/events/download/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
@@ -1276,6 +1295,11 @@ find-up@^4.0.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.1.tgz?cache=0&sync_timestamp=1620555300559&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha1-2RFN7Qoc/dM04WTmZirQK/2R/0M=
 
 forwarded@0.2.0:
   version "0.2.0"
@@ -1487,6 +1511,26 @@ http-errors@~1.7.2:
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
 
+http-proxy-middleware@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/http-proxy-middleware/download/http-proxy-middleware-2.0.1.tgz#7ef3417a479fb7666a571e09966c66a39bd2c15f"
+  integrity sha1-fvNBekeft2ZqVx4Jlmxmo5vSwV8=
+  dependencies:
+    "@types/http-proxy" "^1.17.5"
+    http-proxy "^1.18.1"
+    is-glob "^4.0.1"
+    is-plain-obj "^3.0.0"
+    micromatch "^4.0.2"
+
+http-proxy@^1.18.1:
+  version "1.18.1"
+  resolved "https://registry.npm.taobao.org/http-proxy/download/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha1-QBVB8FNIhLv5UmAzTnL4juOXZUk=
+  dependencies:
+    eventemitter3 "^4.0.0"
+    follow-redirects "^1.0.0"
+    requires-port "^1.0.0"
+
 human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.nlark.com/human-signals/download/human-signals-2.1.0.tgz?cache=0&sync_timestamp=1624364695595&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhuman-signals%2Fdownload%2Fhuman-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
@@ -1691,6 +1735,11 @@ is-path-inside@^3.0.1:
   version "3.0.3"
   resolved "https://registry.nlark.com/is-path-inside/download/is-path-inside-3.0.3.tgz?cache=0&sync_timestamp=1620046845369&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-path-inside%2Fdownload%2Fis-path-inside-3.0.3.tgz#d231362e53a07ff2b0e0ea7fed049161ffd16283"
   integrity sha1-0jE2LlOgf/Kw4Op/7QSRYf/RYoM=
+
+is-plain-obj@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/is-plain-obj/download/is-plain-obj-3.0.0.tgz#af6f2ea14ac5a646183a5bbdb5baabbc156ad9d7"
+  integrity sha1-r28uoUrFpkYYOlu9tbqrvBVq2dc=
 
 is-plain-object@^2.0.4:
   version "2.0.4"
@@ -1920,6 +1969,14 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/methods/download/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+
+micromatch@^4.0.2:
+  version "4.0.4"
+  resolved "https://registry.npm.taobao.org/micromatch/download/micromatch-4.0.4.tgz?cache=0&sync_timestamp=1618054787196&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmicromatch%2Fdownload%2Fmicromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
+  integrity sha1-iW1Rnf6dsl/OlM63pQCRm/iB6/k=
+  dependencies:
+    braces "^3.0.1"
+    picomatch "^2.2.3"
 
 mime-db@1.48.0:
   version "1.48.0"
@@ -2239,7 +2296,7 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
-picomatch@^2.0.4, picomatch@^2.2.1:
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.nlark.com/picomatch/download/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha1-8fBh3o9qS/AiiS4tEoI0+5gwKXI=
@@ -2519,6 +2576,11 @@ rechoir@^0.7.0:
   dependencies:
     resolve "^1.9.0"
 
+redux-thunk@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/redux-thunk/download/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
+  integrity sha1-UcLBmhhe1Rh6qpotCLZm0NZGdiI=
+
 redux@^4.0.0, redux@^4.1.0:
   version "4.1.0"
   resolved "https://registry.nlark.com/redux/download/redux-4.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fredux%2Fdownload%2Fredux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
@@ -2544,6 +2606,11 @@ registry-url@^5.0.0:
   integrity sha1-6YM0tQ1UNLgRNrROxjjZwgCcUAk=
   dependencies:
     rc "^1.2.8"
+
+requires-port@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

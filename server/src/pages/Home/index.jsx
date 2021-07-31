@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './index.css';
 import superMan from '../../assets/superMan.jpeg'
 
-console.log(styles, 'styles');
+console.log(styles._getCss(), 'styles');
 
 export default function () {
   const [number, setNumber] = useState(0);
